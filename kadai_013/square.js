@@ -1,8 +1,6 @@
 const outputSquare = (num) =>{
-    num = num * num;
-    console.log(num);
+    return num * num;
 
 }
 
-
-outputSquare(100);
+console.log(outputSquare(30));
